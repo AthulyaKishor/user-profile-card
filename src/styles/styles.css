@@ -1,0 +1,24 @@
+.user_card {
+  background-color: #fff;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.user_avatar {
+  border-radius: 50%;
+  height: 115px;
+  width: 115px;
+  margin-bottom: 10px;
+}
+
+.user_name {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.user_biography {
+  font-size: 1em;
+  color: #666;
+}
