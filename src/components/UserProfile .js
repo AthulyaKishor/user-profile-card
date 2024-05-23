@@ -1,10 +1,10 @@
 import '../styles/styles.css';
 import React from 'react'
 
-const UserProfile= (render,user)=> {
+const UserProfile= ({renderComponent,user})=> {
   return (
     <div>
-      {render(user)}
+      {renderComponent(user)}
     </div>
   )
 }
