@@ -18,13 +18,13 @@ Follow these steps to set up and run the project locally:
 2. **Create the repository:**
 create repository and connect with the application :
   
-echo "# user-profile-card" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/AthulyaKishor/user-profile-card.git
-git push -u origin main
+- echo "# user-profile-card" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/AthulyaKishor/user-profile-card.git
+- git push -u origin main
 2. **Install :**
 
     Using npm:
