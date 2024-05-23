@@ -12,10 +12,10 @@ Follow these steps to set up and run the project locally:
 - npm (>=6.x) 
 
 ### Installation
-1.**Creat the application:**
+1. **Creat the application:**
     Using : npx create-react-app user-profile-card 
 
-1. **Create the repository:**
+2. **Create the repository:**
 create repository and connect with the application :
   
 echo "# user-profile-card" >> README.md
