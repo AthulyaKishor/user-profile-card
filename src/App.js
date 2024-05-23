@@ -1,6 +1,7 @@
 import './App.css';
 import UserCard from './components/UserCard ';
 import avatar from './assets/profile.png'
+import UserProfile from './components/UserProfile ';
 function App() {
   const user = {
     name: 'ATHULYA KISHOR',
@@ -9,7 +10,10 @@ function App() {
   }
   return (
     <div className="App">
-      <UserCard user={user} />
+      <UserProfile
+        user={user}
+        renderComponent={(user) => <UserCard user={user} />}
+      />
     </div>
   );
 }
