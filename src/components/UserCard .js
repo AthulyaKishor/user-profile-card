@@ -4,7 +4,7 @@ import { Card } from '@mui/material';
 
 const UserCard = (props) => {
     return (
-        <Card variant="outlined" >
+        <Card className='card' variant="outlined" >
             <div className="user_card">
                 <img src={props.user.avatar} alt={`${props.user.name}'s avatar`} className="user_avatar" />
                 <h2 className="user_name">{props.user.name}</h2>
